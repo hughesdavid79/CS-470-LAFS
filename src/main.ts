@@ -14,3 +14,4 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 LoopBackConfig.setBaseURL(environment.api_url);
+LoopBackConfig.filterOnUrl();
